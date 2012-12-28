@@ -10,6 +10,9 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
 	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.message";
 	
+	EditText inputData;
+	String url = "http://www.server34.000webhost.com/testFIle.php";
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
